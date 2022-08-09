@@ -1,0 +1,22 @@
+ $bg-color:#2c2822;
+ $btn-color:orangered;
+ $text-color:white;
+
+ body{
+    background:$bg-color;
+    overflow-x:hidden;
+    position:relative;
+ }
+
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    text-decoration:none;
+    border:none;
+    outline:none;
+    color:$text-color;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing:border-box;
+
+}

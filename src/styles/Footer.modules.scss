@@ -1,0 +1,85 @@
+.footerContainer{
+    margin-top:5rem;
+    background:#0c0a07;
+    width:100%;
+    .nav{
+        padding:2rem;
+        display:flex;
+        align-items:center;
+      justify-content: space-between;
+        .logoContainer{
+            display:flex;
+            align-items:center;
+            @media screen and (max-width:540px) {
+                flex-direction: column;
+                }
+            .logo{
+                color:white;
+                cursor:pointer;
+                @media screen and (max-width:540px) {
+                 font-size:20px;
+                 margin:20px;
+                    }
+
+            }
+            .copyright{
+               
+                margin-left: 3rem;
+                white-space: nowrap;
+                @media screen and (max-width:540px) {
+                    width: 100%;
+                    font-size:13px;
+                    }
+
+                    @media screen and (max-width:400px) {
+                        white-space:unset;
+                        }
+                        
+                    
+            }
+        }
+        @media screen and (max-width:768px) {
+        display:flex;
+        flex-direction: column;
+        gap:1.5rem;
+        }
+        ul{
+            display:flex;
+            align-items:center;
+            gap:10px;
+            text-align: center;
+         
+           
+            @media screen and (max-width:540px) {
+                flex-direction: column;
+                }
+                li{
+                    white-space: nowrap;
+                    cursor:pointer;
+                    @media screen and (max-width:540px) {
+                       font-size:0.8rem;
+                        }
+                }
+            .socialContainer{
+                display:flex;
+                align-items:center;
+              
+                white-space: nowrap;
+                li{
+                    font-size:20px;
+                    fill:white;
+                    @media screen and (max-width:540px) {
+                       margin-left:-25px;
+                         }
+                }
+
+                @media screen and (max-width:540px) {
+                    flex-direction: column;
+                    justify-content: center;
+                     }
+               
+            }
+        }
+       
+    }
+}

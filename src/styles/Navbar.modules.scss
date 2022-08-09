@@ -1,0 +1,81 @@
+.navs{
+    position:relative;
+    z-index:99;
+    display:flex;
+    width:100%;
+  
+    .logoContainer{
+        .logo{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size:1.4rem;
+            font-style: italic;
+            cursor: pointer;
+           margin-left:20px;
+            transform: color ease-in-out 300ms;
+            &:hover{
+                color:orangered;
+            }
+        }
+    }
+   .menu{
+    display:flex;
+    align-items:center;
+    justify-content: flex-end;
+    gap:1.2rem;
+    width:max-content;
+    background: #2c28224b;
+    margin-left:auto;
+    padding:0.5rem 1rem;
+    li{
+        font-size:14px;
+        font-weight:500;
+        cursor: pointer;
+        transition: all ease-in-out 200ms;
+        &:hover{
+            color:orangered;
+        }
+        @media screen and (max-width:768px) {
+                    &:first-child{
+                        margin-top: 0px;
+
+                    }
+                    padding:0.5rem 2rem;
+        }
+    }
+    @media screen and (max-width:768px) {
+        position:fixed;
+        flex-direction: column;
+        align-items:flex-start;
+        right:0;
+        top:0;
+        height:40vh;
+        background:orangered;
+        transform: translateX(100%);
+        padding:0;
+        transition: transform 200ms ease-in-out;
+    }
+    
+   }
+   .mobileBars, .mobileFatimes{
+    cursor:pointer;
+    display:none;
+    @media screen and (max-width:768px) {
+      display:flex;
+      align-items: center;
+    }
+}
+.mobileBars{
+    position: fixed;
+    top:1rem;
+    right:1rem;
+    background-color: orangered;
+    border-radius: 50%;
+    padding:1rem;
+}
+
+.menumobileactive{
+    @media screen and (max-width:768px) {
+        transform:translateX(0)
+    }
+}
+}
