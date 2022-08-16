@@ -2,10 +2,18 @@
     margin-top:5rem;
     background:#0c0a07;
     width:100%;
+    padding-top:20px;
+    margin-top:30px;
+    @media screen and (max-width:540px) {
+       margin-top:200px;
+        }
     .nav{
         padding:2rem;
         display:flex;
         align-items:center;
+        @media screen and (max-width:540px) {
+            padding-top:20px;
+            }
       justify-content: space-between;
         .logoContainer{
             display:flex;

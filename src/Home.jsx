@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import './styles/Home.modules.scss'
-import img from './images/f2.jpeg'
+import img from './images/f6.jpeg'
 import {BsArrowRight} from 'react-icons/bs'
 import Brands from './components/Brands'
 import Titles from './components/Titles'
@@ -10,6 +10,7 @@ import Facts from './components/Facts'
 import Dishes from './components/Dishes'
 import Reserve from './components/Reserve'
 import Footer from './components/Footer'
+import ContactUs from './components/ContactUs'
 
 function Home() {
   return (
@@ -54,6 +55,9 @@ function Home() {
    
     <div>
       <Reserve/>
+    </div>
+    <div>
+      <ContactUs/>
     </div>
     <div>
       <Footer/>

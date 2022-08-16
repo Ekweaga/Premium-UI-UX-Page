@@ -1,6 +1,6 @@
 import React from 'react'
 import "../styles/Reserve.modules.scss"
-import t2 from '../images/f6.jpeg'
+import t2 from '../images/r1.jpeg'
 import {BsArrowRight} from 'react-icons/bs'
 
 function Reserve() {
